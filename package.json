@@ -1,0 +1,29 @@
+{
+  "name": "ans-randomizer",
+  "version": "1.0.0",
+  "description": "This package is used to genertate random string by providing the length and type of the string you want ex: Alphanumeric, numbers or string",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitchavhan89/ans-randomizer.git"
+  },
+  "keywords": [
+    "ans-randomizer",
+    "ans-randomiser",
+    "randomizer",
+    "randomiser",
+    "randomize",
+    "randomise",
+    "randomize-string"
+  ],
+  "author": "Ankit Chavhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankitchavhan89/ans-randomizer/issues"
+  },
+  "homepage": "https://github.com/ankitchavhan89/ans-randomizer#readme"
+}
