@@ -1,39 +1,38 @@
-// var ansRandomizer = require('./src/index.js');
-const result ='';
-//function to genrate customisable random string
-function strLower (setString) {
+function strLower (setStringCounter) {
+    let resultLower ='';
     setString = 'abcdefghijklmnopqrstuvwxyz';
-    for (var i = 0; i< setString; i++) {
+    for (var i = 0; i< setStringCounter; i++) {
         var index = Math.floor((Math.random()*100)) % setString.length;
-        result += ((setString[index]));
+        resultLower += ((setString[index]));
     }
-    return result;
+    return resultLower;
 }
-function strUpper (setString) {
+function strUpper (setStringCounter) {
+    let resultUpper ='';
     setString = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    for (var i = 0; i< setString; i++) {
+    for (var i = 0; i< setStringCounter; i++) {
         var index = Math.floor((Math.random()*100)) % setString.length;
-        console.log(typeof setString+' test')
-        result += ((setString[index]));
+        resultUpper += ((setString[index]));
     }
-    return result;
+    return resultUpper;
 }
-function numbOnly (setString) {
+function numbOnly (setStringCounter) {
+    let resultNumber = '';
     setString = '1234567890';
-    for (var i = 0; i< setString; i++) {
+    for (var i = 0; i< setStringCounter; i++) {
         var index = Math.floor((Math.random()*100)) % setString.length;
-        console.log(typeof setString)
-        result += ((setString[index]));
+        resultNumber += ((setString[index]));
     }
-    return result;
+    return resultNumber;
 }
-function strAlpha (setString) {
-    setString = '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    for (var i = 0; i< setString; i++) {
+let strAlpha = (setStringCounter) => {
+    let resultAlpha='';
+    var setString = '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    for (var i = 0; i< setStringCounter; i++) {
         var index = Math.floor((Math.random()*100)) % setString.length;
-        result += ((setString[index]));
+        resultAlpha += ((setString[index]));
     }
-    return result;
+    return resultAlpha;
 }
 exports.strLower = strLower;
 exports.strUpper = strUpper;
