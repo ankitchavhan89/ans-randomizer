@@ -1,6 +1,6 @@
 {
   "name": "ans-randomizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is used to genertate random string by providing the length and type of the string you want ex: Alphanumeric, numbers or string",
   "main": "server.js",
   "scripts": {
