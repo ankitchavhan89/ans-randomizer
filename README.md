@@ -22,7 +22,7 @@ This package is used to create random string including alphanumeric, numeric, st
 include ans-randomizer package from node_modules
 
 ```bash
-const ansRandomizer = require('../ans-randomizer');
+const ansRandomizer = require('ans-randomizer');
 ```
 
 ```bash
